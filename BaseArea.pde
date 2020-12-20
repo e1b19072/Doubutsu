@@ -4,6 +4,7 @@ class BaseArea extends AbstractArea {
     super(posX, posY, yoko, tate);
   }
 
+
   void draw() {
     for (int i=posX; i< posX+yoko; i++) {
       for (int j=posY; j< posY+tate; j++) {
